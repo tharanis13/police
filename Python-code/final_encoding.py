@@ -8,7 +8,7 @@ import os
 from tqdm import tqdm
 
 
-data = pickle.loads(open("E:\Python\ML\Criminal Detection using Encoding Technique\enc.picke", "rb").read())
+data = pickle.loads(open(r"E:\Python\ML\Criminal Detection using Encoding Technique\enc.picke", "rb").read())
 data=np.array(data)
 
 encodings=[d['encodings'] for d in data]

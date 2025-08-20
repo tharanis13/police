@@ -1,0 +1,10 @@
+absl-py
+opencv-python
+dlib
+face_recognition
+flask
+numpy
+pandas
+tensorflow
+torch
+torchvision

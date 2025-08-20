@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 
 
-facedetect =cv2.CascadeClassifier(r'E:\Python\ML\Criminal Detection using Encoding Technique\haarcascade_frontalface_default.xml')#Load haar classifier
+facedetect =cv2.CascadeClassifier(r'C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\haarcascade_frontalface_default.xml')#Load haar classifier
 
 # facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -16,7 +16,7 @@ fontScale = 1
 fontColor = (0,0,255)
 
 
-cam = cv2.VideoCapture(r'E:\Python\ML\Criminal Detection using Encoding Technique\testing_video.mp4')
+cam = cv2.VideoCapture(r'C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\Python-code\testing_video.mp4')
 
 length = int(cam.get(cv2.CAP_PROP_FRAME_COUNT))
 

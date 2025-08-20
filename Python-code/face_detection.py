@@ -3,9 +3,9 @@ import cv2
 
 def detect():
     
-    facedetect = cv2.CascadeClassifier(r'E:\Python\ML\Criminal Detection using Encoding Technique\haarcascade_frontalface_default.xml')
+    facedetect = cv2.CascadeClassifier(r'C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\haarcascade_frontalface_default.xml')
     #cam = cv2.VideoCapture(0)
-    cam = cv2.VideoCapture(r'E:\Python\ML\Criminal Detection using Encoding Technique\testing_video.mp4')
+    cam = cv2.VideoCapture(r'C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\Python-code\testing_video.mp4')
     sampleNum = 0
 
 

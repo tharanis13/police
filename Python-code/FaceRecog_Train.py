@@ -4,7 +4,7 @@ import numpy as np
 
 def faceDetection(test_img):
     gray_img=cv2.cvtColor(test_img,cv2.COLOR_BGR2GRAY)#convert color image to grayscale
-    face_haar_cascade=cv2.CascadeClassifier(r'E:\Python\ML\Criminal Detection using Encoding Technique\haarcascade_frontalface_default.xml')#Load haar classifier
+    face_haar_cascade=cv2.CascadeClassifier(r'C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\haarcascade_frontalface_default.xml')#Load haar classifier
     faces=face_haar_cascade.detectMultiScale(gray_img,scaleFactor=1.32,minNeighbors=5)#detectMultiScale returns rectangles
 
     return faces,gray_img

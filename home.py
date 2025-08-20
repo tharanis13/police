@@ -57,7 +57,7 @@ def goBack():
 def basicPageSetup(pageNo):
     global left_frame, right_frame, heading
 
-    back_img = tk.PhotoImage(file= r"C:\Users\hp\Documents\GitHub\Face-Recognition-For-Criminal-Detection-GUi\img\back.png")
+    back_img = tk.PhotoImage(file= r"C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\img\back.png")
     back_button = tk.Button(pages[pageNo], image=back_img, bg="#3E3B3C", bd=0, highlightthickness=0,
            activebackground="#3E3B3C", command=goBack)
     back_button.image = back_img
@@ -150,8 +150,8 @@ def selectMultiImage(opt_menu, menu_var):
         slide_control_panel = tk.Frame(left_frame, bg="#202d42", pady=20)
         slide_control_panel.pack()
 
-        back_img = tk.PhotoImage(file="previous.png")
-        next_img = tk.PhotoImage(file="next.png")
+        back_img = tk.PhotoImage(file=r"C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\img\previous.png")
+        next_img = tk.PhotoImage(file=r"C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\img\next.png")
 
         prev_slide = tk.Button(slide_control_panel, image=back_img, bg="#202d42", bd=0, highlightthickness=0,
                             activebackground="#202d42", command=lambda : getNewSlide("prev"))
@@ -610,7 +610,7 @@ def selectvideo1():
 tk.Label(pages[0], text="Face Recognition System for Criminal Detection", fg="black", bg="#3E3B3C",
       font="Arial 25 bold", pady=30).pack()
 
-logo = tk.PhotoImage(file = r"C:\Users\hp\Documents\GitHub\Face-Recognition-For-Criminal-Detection-GUi\img\logo2.png")
+logo = tk.PhotoImage(file = r"C:\Users\THARANI\Facial-Recognition-for-Crime-Detection\img\logo2.png")
 tk.Label(pages[0], image=logo, bg="#3E3B3C").pack(side='left')
 
 btn_frame = tk.Frame(pages[0], bg="#3E3B3C", pady=30)
